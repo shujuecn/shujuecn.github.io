@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"yinlin.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="基本Linux命令查看当前目录1pwd  改变目录1cd  例如：cd ~&#x2F;desktop 前往桌面所在路径 回到上个目录1cd ..  列出当前目录中的所有文件1ls  新建文件1touch  例如：touch code.txt 新建code.txt文件。 新建文件夹1mkdir  例如：touch code 新建code文件夹。 删除文件1rm  删除文件夹1rm -r  rm -rf &#x2F; 会">
+  <meta name="description" content="这是 Mac环境下Git学习记录 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。 基本Linux命令查看当前目录1pwd  改变目录1cd  例如：cd ~&#x2F;desktop 前往桌面所在路径 回到上个目录1cd ..  列出当前目录中的所有文件1ls  新建文件1touch  例如：touch code.txt 新建 code.txt 文件。 新建文件夹1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac环境下Git学习记录（一）">
 <meta property="og:url" content="http://yinlin.top/2020/09/13/git-study-1/index.html">
 <meta property="og:site_name" content="术诀">
-<meta property="og:description" content="基本Linux命令查看当前目录1pwd  改变目录1cd  例如：cd ~&#x2F;desktop 前往桌面所在路径 回到上个目录1cd ..  列出当前目录中的所有文件1ls  新建文件1touch  例如：touch code.txt 新建code.txt文件。 新建文件夹1mkdir  例如：touch code 新建code文件夹。 删除文件1rm  删除文件夹1rm -r  rm -rf &#x2F; 会">
+<meta property="og:description" content="这是 Mac环境下Git学习记录 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。 基本Linux命令查看当前目录1pwd  改变目录1cd  例如：cd ~&#x2F;desktop 前往桌面所在路径 回到上个目录1cd ..  列出当前目录中的所有文件1ls  新建文件1touch  例如：touch code.txt 新建 code.txt 文件。 新建文件夹1">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-09-13T15:31:13.052Z">
-<meta property="article:modified_time" content="2020-09-13T15:31:26.773Z">
+<meta property="article:modified_time" content="2020-09-14T01:47:03.656Z">
 <meta property="article:author" content="shujuecn">
 <meta property="article:tag" content="LaTeX; Python; Shell">
 <meta name="twitter:card" content="summary">
@@ -215,19 +215,21 @@
 
         <div class="post-meta">
           
-            <i class="fa fa-thumb-tack"></i>
-            <font color=7D26CD>置顶</font>
-            <span class="post-meta-divider">|</span>
-          
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-09-13 23:31:13 / 修改时间：23:31:26" itemprop="dateCreated datePublished" datetime="2020-09-13T23:31:13+08:00">2020-09-13</time>
+              <time title="创建时间：2020-09-13 23:31:13" itemprop="dateCreated datePublished" datetime="2020-09-13T23:31:13+08:00">2020-09-13</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-14 09:47:03" itemprop="dateModified" datetime="2020-09-14T09:47:03+08:00">2020-09-14</time>
+              </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -247,7 +249,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure>
+        <p>这是 <strong>Mac环境下Git学习记录</strong> 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。</p>
+<h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="改变目录"><a href="#改变目录" class="headerlink" title="改变目录"></a>改变目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
 
@@ -258,25 +261,35 @@
 
 <h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch</span><br></pre></td></tr></table></figure>
 
-<p>例如：<code>touch code.txt</code> 新建<code>code.txt</code>文件。</p>
+<p>例如：<code>touch code.txt</code> 新建 <code>code.txt</code> 文件。</p>
 <h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir</span><br></pre></td></tr></table></figure>
 
-<p>例如：<code>touch code</code> 新建<code>code</code>文件夹。</p>
+<p>例如：<code>touch code</code> 新建 <code>code</code> 文件夹。</p>
 <h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm</span><br></pre></td></tr></table></figure>
 
 <h3 id="删除文件夹"><a href="#删除文件夹" class="headerlink" title="删除文件夹"></a>删除文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r</span><br></pre></td></tr></table></figure>
 
-<p><code>rm -rf / </code>会删除电脑中的所有文件，切勿在Linux中尝试！</p>
+<p><code>rm -rf / </code> 会删除电脑中的所有文件，切勿在Linux中尝试！</p>
 <h3 id="移动文件"><a href="#移动文件" class="headerlink" title="移动文件"></a>移动文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv file src</span><br></pre></td></tr></table></figure>
 
-<p><code>file</code>指要移动的文件，<code>src</code>指文件移动的目标路径。</p>
-<h3 id="清屏"><a href="#清屏" class="headerlink" title="清屏"></a>清屏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure>
+<p><code>file</code> 指要移动的文件，<code>src</code> 指文件移动的目标路径。</p>
+<h3 id="初始化终端-清屏"><a href="#初始化终端-清屏" class="headerlink" title="初始化终端/清屏"></a>初始化终端/清屏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure>
 
-<h3 id="初始化终端"><a href="#初始化终端" class="headerlink" title="初始化终端"></a>初始化终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure>
+<p><code>reset</code> 不仅会清除屏幕显示，也会清除历史缓存记录。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure>
 
+<p><code>clear</code> 仅清除屏幕显示，不清除历史记录。</p>
 <h3 id="查询历史命令记录"><a href="#查询历史命令记录" class="headerlink" title="查询历史命令记录"></a>查询历史命令记录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">history</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="退出终端"><a href="#退出终端" class="headerlink" title="退出终端"></a>退出终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://b23.tv/yb0Jzs">狂神说Java-Git最新教程通俗易懂</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/05c41cf1a7c4">Shell命令高亮显示</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/tsummer2010/article/details/105374173">Linux下的清屏命令clear和reset用法</a></li>
+</ul>
 
     </div>
 
@@ -318,11 +331,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2020/09/10/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
-    </a></div>
       <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/09/14/hello-world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -381,7 +394,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%ACLinux%E5%91%BD%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">基本Linux命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95"><span class="nav-number">1.1.</span> <span class="nav-text">查看当前目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E5%8F%98%E7%9B%AE%E5%BD%95"><span class="nav-number">1.2.</span> <span class="nav-text">改变目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9E%E5%88%B0%E4%B8%8A%E4%B8%AA%E7%9B%AE%E5%BD%95"><span class="nav-number">1.3.</span> <span class="nav-text">回到上个目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6"><span class="nav-number">1.4.</span> <span class="nav-text">列出当前目录中的所有文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6"><span class="nav-number">1.5.</span> <span class="nav-text">新建文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.6.</span> <span class="nav-text">新建文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6"><span class="nav-number">1.7.</span> <span class="nav-text">删除文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.8.</span> <span class="nav-text">删除文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E6%96%87%E4%BB%B6"><span class="nav-number">1.9.</span> <span class="nav-text">移动文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%85%E5%B1%8F"><span class="nav-number">1.10.</span> <span class="nav-text">清屏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E7%BB%88%E7%AB%AF"><span class="nav-number">1.11.</span> <span class="nav-text">初始化终端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E8%AF%A2%E5%8E%86%E5%8F%B2%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95"><span class="nav-number">1.12.</span> <span class="nav-text">查询历史命令记录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%80%E5%87%BA%E7%BB%88%E7%AB%AF"><span class="nav-number">1.13.</span> <span class="nav-text">退出终端</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%ACLinux%E5%91%BD%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">基本Linux命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95"><span class="nav-number">1.1.</span> <span class="nav-text">查看当前目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E5%8F%98%E7%9B%AE%E5%BD%95"><span class="nav-number">1.2.</span> <span class="nav-text">改变目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9E%E5%88%B0%E4%B8%8A%E4%B8%AA%E7%9B%AE%E5%BD%95"><span class="nav-number">1.3.</span> <span class="nav-text">回到上个目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%87%BA%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6"><span class="nav-number">1.4.</span> <span class="nav-text">列出当前目录中的所有文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6"><span class="nav-number">1.5.</span> <span class="nav-text">新建文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.6.</span> <span class="nav-text">新建文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6"><span class="nav-number">1.7.</span> <span class="nav-text">删除文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">1.8.</span> <span class="nav-text">删除文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E6%96%87%E4%BB%B6"><span class="nav-number">1.9.</span> <span class="nav-text">移动文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E7%BB%88%E7%AB%AF-%E6%B8%85%E5%B1%8F"><span class="nav-number">1.10.</span> <span class="nav-text">初始化终端&#x2F;清屏</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E8%AF%A2%E5%8E%86%E5%8F%B2%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95"><span class="nav-number">1.11.</span> <span class="nav-text">查询历史命令记录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%80%E5%87%BA%E7%BB%88%E7%AB%AF"><span class="nav-number">1.12.</span> <span class="nav-text">退出终端</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

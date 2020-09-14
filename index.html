@@ -194,7 +194,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yinlin.top/2020/09/13/git-study-1/">
+    <link itemprop="mainEntityOfPage" href="http://yinlin.top/2020/09/14/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -208,7 +208,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/13/git-study-1/" class="post-title-link" itemprop="url">Mac环境下Git学习记录（一）</a>
+            <a href="/2020/09/14/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
         </h2>
 
         <div class="post-meta">
@@ -222,104 +222,8 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-09-13 23:31:13 / 修改时间：23:31:26" itemprop="dateCreated datePublished" datetime="2020-09-13T23:31:13+08:00">2020-09-13</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="改变目录"><a href="#改变目录" class="headerlink" title="改变目录"></a>改变目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>cd ~/desktop</code> 前往桌面所在路径</p>
-<h3 id="回到上个目录"><a href="#回到上个目录" class="headerlink" title="回到上个目录"></a>回到上个目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure>
-
-<h3 id="列出当前目录中的所有文件"><a href="#列出当前目录中的所有文件" class="headerlink" title="列出当前目录中的所有文件"></a>列出当前目录中的所有文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure>
-
-<h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch</span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>touch code.txt</code> 新建<code>code.txt</code>文件。</p>
-<h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir</span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>touch code</code> 新建<code>code</code>文件夹。</p>
-<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm</span><br></pre></td></tr></table></figure>
-
-<h3 id="删除文件夹"><a href="#删除文件夹" class="headerlink" title="删除文件夹"></a>删除文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r</span><br></pre></td></tr></table></figure>
-
-<p><code>rm -rf / </code>会删除电脑中的所有文件，切勿在Linux中尝试！</p>
-<h3 id="移动文件"><a href="#移动文件" class="headerlink" title="移动文件"></a>移动文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv file src</span><br></pre></td></tr></table></figure>
-
-<p><code>file</code>指要移动的文件，<code>src</code>指文件移动的目标路径。</p>
-<h3 id="清屏"><a href="#清屏" class="headerlink" title="清屏"></a>清屏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure>
-
-<h3 id="初始化终端"><a href="#初始化终端" class="headerlink" title="初始化终端"></a>初始化终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure>
-
-<h3 id="查询历史命令记录"><a href="#查询历史命令记录" class="headerlink" title="查询历史命令记录"></a>查询历史命令记录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">history</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="退出终端"><a href="#退出终端" class="headerlink" title="退出终端"></a>退出终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yinlin.top/2020/09/10/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="shujuecn">
-      <meta itemprop="description" content="万术皆有诀">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="术诀">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/10/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-          
-            <i class="fa fa-thumb-tack"></i>
-            <font color=7D26CD>置顶</font>
-            <span class="post-meta-divider">|</span>
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-09-10 11:51:24 / 修改时间：14:10:00" itemprop="dateCreated datePublished" datetime="2020-09-10T11:51:24+08:00">2020-09-10</time>
+              <time title="创建时间：2020-09-14 09:46:18" itemprop="dateCreated datePublished" datetime="2020-09-14T09:46:18+08:00">2020-09-14</time>
             </span>
 
           
@@ -346,6 +250,114 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yinlin.top/2020/09/13/git-study-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="shujuecn">
+      <meta itemprop="description" content="万术皆有诀">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="术诀">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/13/git-study-1/" class="post-title-link" itemprop="url">Mac环境下Git学习记录（一）</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-13 23:31:13" itemprop="dateCreated datePublished" datetime="2020-09-13T23:31:13+08:00">2020-09-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-14 09:47:03" itemprop="dateModified" datetime="2020-09-14T09:47:03+08:00">2020-09-14</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>这是 <strong>Mac环境下Git学习记录</strong> 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。</p>
+<h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="改变目录"><a href="#改变目录" class="headerlink" title="改变目录"></a>改变目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
+
+<p>例如：<code>cd ~/desktop</code> 前往桌面所在路径</p>
+<h3 id="回到上个目录"><a href="#回到上个目录" class="headerlink" title="回到上个目录"></a>回到上个目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure>
+
+<h3 id="列出当前目录中的所有文件"><a href="#列出当前目录中的所有文件" class="headerlink" title="列出当前目录中的所有文件"></a>列出当前目录中的所有文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure>
+
+<h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch</span><br></pre></td></tr></table></figure>
+
+<p>例如：<code>touch code.txt</code> 新建 <code>code.txt</code> 文件。</p>
+<h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir</span><br></pre></td></tr></table></figure>
+
+<p>例如：<code>touch code</code> 新建 <code>code</code> 文件夹。</p>
+<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm</span><br></pre></td></tr></table></figure>
+
+<h3 id="删除文件夹"><a href="#删除文件夹" class="headerlink" title="删除文件夹"></a>删除文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r</span><br></pre></td></tr></table></figure>
+
+<p><code>rm -rf / </code> 会删除电脑中的所有文件，切勿在Linux中尝试！</p>
+<h3 id="移动文件"><a href="#移动文件" class="headerlink" title="移动文件"></a>移动文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv file src</span><br></pre></td></tr></table></figure>
+
+<p><code>file</code> 指要移动的文件，<code>src</code> 指文件移动的目标路径。</p>
+<h3 id="初始化终端-清屏"><a href="#初始化终端-清屏" class="headerlink" title="初始化终端/清屏"></a>初始化终端/清屏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure>
+
+<p><code>reset</code> 不仅会清除屏幕显示，也会清除历史缓存记录。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure>
+
+<p><code>clear</code> 仅清除屏幕显示，不清除历史记录。</p>
+<h3 id="查询历史命令记录"><a href="#查询历史命令记录" class="headerlink" title="查询历史命令记录"></a>查询历史命令记录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">history</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="退出终端"><a href="#退出终端" class="headerlink" title="退出终端"></a>退出终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://b23.tv/yb0Jzs">狂神说Java-Git最新教程通俗易懂</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/05c41cf1a7c4">Shell命令高亮显示</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/tsummer2010/article/details/105374173">Linux下的清屏命令clear和reset用法</a></li>
+</ul>
 
       
     </div>
