@@ -22,18 +22,22 @@
     var CONFIG = {"hostname":"yinlin.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="万术皆有诀">
-<meta property="og:type" content="website">
-<meta property="og:title" content="术诀">
-<meta property="og:url" content="http://yinlin.top/archives/2020/index.html">
+  <meta name="description" content="操作平台：Mac OS发行版：MacTex 2020 XeCjk字体设置1234\usepackage&amp;#123;xeCJK&amp;#125;\setCJKmainfont[BoldFont&#x3D;方正书宋_GBK, ItalicFont&#x3D;方正楷体_GBK]&amp;#123;方正仿宋_GBK&amp;#125;\setCJKsansfont&amp;#123;方正黑体_GBK&amp;#125;\setCJKmonofont&amp;#123;方">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用XeCjk宏包修改LaTeX中文字体">
+<meta property="og:url" content="http://yinlin.top/2020/09/16/latex-xecjk/index.html">
 <meta property="og:site_name" content="术诀">
-<meta property="og:description" content="万术皆有诀">
+<meta property="og:description" content="操作平台：Mac OS发行版：MacTex 2020 XeCjk字体设置1234\usepackage&amp;#123;xeCJK&amp;#125;\setCJKmainfont[BoldFont&#x3D;方正书宋_GBK, ItalicFont&#x3D;方正楷体_GBK]&amp;#123;方正仿宋_GBK&amp;#125;\setCJKsansfont&amp;#123;方正黑体_GBK&amp;#125;\setCJKmonofont&amp;#123;方">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg">
+<meta property="article:published_time" content="2020-09-16T05:45:53.919Z">
+<meta property="article:modified_time" content="2020-09-16T05:50:51.916Z">
 <meta property="article:author" content="shujuecn">
 <meta property="article:tag" content="LaTeX; Python; Shell">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg">
 
-<link rel="canonical" href="http://yinlin.top/archives/2020/">
+<link rel="canonical" href="http://yinlin.top/2020/09/16/latex-xecjk/">
 
 
 <script id="page-configurations">
@@ -41,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 术诀</title>
+  <title>使用XeCjk宏包修改LaTeX中文字体 | 术诀</title>
   
 
 
@@ -188,70 +192,115 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yinlin.top/2020/09/16/latex-xecjk/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="shujuecn">
+      <meta itemprop="description" content="万术皆有诀">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="术诀">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用XeCjk宏包修改LaTeX中文字体
+        </h1>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-09-16 13:45:53 / 修改时间：13:50:51" itemprop="dateCreated datePublished" datetime="2020-09-16T13:45:53+08:00">2020-09-16</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
+        <p>操作平台：Mac OS<br>发行版：MacTex 2020</p>
+<h2 id="XeCjk字体设置"><a href="#XeCjk字体设置" class="headerlink" title="XeCjk字体设置"></a>XeCjk字体设置</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;xeCJK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmainfont</span><span class="string">[BoldFont=方正书宋_GBK, ItalicFont=方正楷体_GBK]</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKsansfont</span><span class="string">&#123;方正黑体_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmonofont</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br></pre></td></tr></table></figure>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-09-16T13:45:53+08:00"
-              content="2020-09-16">
-          09-16
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/09/16/latex-xecjk/" itemprop="url">
-            <span itemprop="name">使用XeCjk宏包修改LaTeX中文字体</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-09-13T23:31:13+08:00"
-              content="2020-09-13">
-          09-13
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/09/13/git-study-1/" itemprop="url">
-            <span itemprop="name">Mac环境下Git学习记录（一）</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+<h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg" alt="预览效果"></p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:24px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      </div>
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>shujuecn
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://yinlin.top/2020/09/16/latex-xecjk/" title="使用XeCjk宏包修改LaTeX中文字体">http://yinlin.top/2020/09/16/latex-xecjk/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/09/13/git-study-1/" rel="prev" title="Mac环境下Git学习记录（一）">
+      <i class="fa fa-chevron-left"></i> Mac环境下Git学习记录（一）
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -304,6 +353,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#XeCjk%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">XeCjk字体设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%84%E8%A7%88%E6%95%88%E6%9E%9C"><span class="nav-number">2.</span> <span class="nav-text">预览效果</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
