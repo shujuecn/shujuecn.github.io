@@ -230,7 +230,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-18 00:56:26" itemprop="dateModified" datetime="2020-09-18T00:56:26+08:00">2020-09-18</time>
+                <time title="修改时间：2020-09-18 01:03:11" itemprop="dateModified" datetime="2020-09-18T01:03:11+08:00">2020-09-18</time>
               </span>
 
           
@@ -245,73 +245,14 @@
 
       
           <p>为电脑重装MacTeX后，在使用<a target="_blank" rel="noopener" href="https://github.com/ElegantLaTeX/ElegantPaper">ElegantPaper</a>模板的过程中，遇到了字体异常显示的问题。本人在GitHub提交了<a target="_blank" rel="noopener" href="https://github.com/ElegantLaTeX/ElegantPaper/issues/46">issues</a>，并得到了<a target="_blank" rel="noopener" href="https://github.com/sikouhjw">sikouhjw</a>的耐心解答，最终解决了问题。特将此问题以及其解决过程记录如下。</p>
-<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ul>
-<li>系统：Mac</li>
-<li>发行版：MacTeX 2020</li>
-<li>模板：ElegantPaper 0.09</li>
-<li>编辑器：VSCode</li>
-<li>编译方式：XeLaTeX</li>
-</ul>
-<h3 id="MWE"><a href="#MWE" class="headerlink" title="MWE"></a>MWE</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">[lang=cn]</span><span class="string">&#123;elegantpaper&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">title</span><span class="string">&#123;标题字体&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">author</span><span class="string">&#123;&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">date</span><span class="string">&#123;&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">maketitle</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;abstract&#125;</span></span></span><br><span class="line">逗号，逗号</span><br><span class="line"><span class="tag">\<span class="name">keywords</span><span class="string">&#123;逗号，逗号&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;abstract&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">section</span><span class="string">&#123;字体&#125;</span></span></span><br><span class="line">逗号，逗号</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure>
-
-<h3 id="问题-1"><a href="#问题-1" class="headerlink" title="问题"></a>问题</h3><ol>
-<li>篇名、小标题、“摘要”、“关键词”的字体变为<strong>Fandol</strong>系列字体</li>
-<li>摘要内容、正文的中文逗号变成<strong>FandolSong</strong>的逗号</li>
-</ol>
-<h3 id="Warings如下："><a href="#Warings如下：" class="headerlink" title="Warings如下："></a>Warings如下：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Font <span class="string">&quot;FandolSong-Regular&quot;</span> does not contain requested</span><br><span class="line">(fontspec)	Script <span class="string">&quot;CJK&quot;</span>.</span><br><span class="line"></span><br><span class="line">Font <span class="string">&quot;FandolKai-Regular&quot;</span> does not contain requested</span><br><span class="line">(fontspec)	Script <span class="string">&quot;CJK&quot;</span>.</span><br></pre></td></tr></table></figure>
-
-<h3 id="PDF截图"><a href="#PDF截图" class="headerlink" title="PDF截图"></a>PDF截图</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gitxmrzd8aj30ma0g3my1.jpg" alt="输出PDF预览"></p>
-<h2 id="初步解决方案及反馈"><a href="#初步解决方案及反馈" class="headerlink" title="初步解决方案及反馈"></a>初步解决方案及反馈</h2><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ol>
-<li><p>使用<code>fontset = mac</code>选项更正CTeX宏集的字体检测</p>
-</li>
-<li><p>使用<code>sudo tlmgr update --all</code>命令更新宏包和其他相关组件</p>
-</li>
-</ol>
-<h3 id="反馈"><a href="#反馈" class="headerlink" title="反馈"></a>反馈</h3><ol>
-<li>中文字体和逗号已经变更为Mac中的默认字体，但与更改前的字体比较相似。</li>
-</ol>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1giu04il9ufj30y40keta3.jpg" alt="更新宏包后调用的字体"></p>
-<ol start="2">
-<li><p>使用<code>pdffonts paper.tex</code>可以看出<strong>更新宏包前后</strong>，输出PDF的字体结构变化。</p>
-<ul>
-<li><p>更新宏包前：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">name                                 type              encoding         emb sub uni object ID</span><br><span class="line">------------------------------------ ----------------- ---------------- --- --- --- ---------</span><br><span class="line">NBPJAL+FandolSong-Bold-Identity-H    CID Type 0C       Identity-H       yes yes no       5  0</span><br><span class="line">NATVCG+FandolKai-Regular-Identity-H  CID Type 0C       Identity-H       yes yes no       7  0</span><br><span class="line">HLGVII+TeXGyreTermesX-Regular        Type 1C           WinAnsi          yes yes yes      8  0</span><br><span class="line">YIOMZF+TeXGyreTermesX-Bold           Type 1C           WinAnsi          yes yes yes      9  0</span><br><span class="line">FYXSID+FandolSong-Regular-Identity-H CID Type 0C       Identity-H       yes yes no      11  0</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>更新宏包后：</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">name                                 type              encoding         emb sub uni object ID</span><br><span class="line">------------------------------------ ----------------- ---------------- --- --- --- ---------</span><br><span class="line">IWTXZO+STSongti-SC-Bold              CID TrueType      Identity-H       yes yes yes      5  0</span><br><span class="line">XUYMGA+STKaitiSC-Regular             CID TrueType      Identity-H       yes yes yes      7  0</span><br><span class="line">YJRCJA+TeXGyreTermesX-Regular        Type 1C           WinAnsi          yes yes yes      8  0</span><br><span class="line">FPOJAO+TeXGyreTermesX-Bold           Type 1C           WinAnsi          yes yes yes      9  0</span><br><span class="line">SNSHQV+STSongti-SC-Light             CID TrueType      Identity-H       yes yes yes     11  0</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>根据编译器的<strong>Warings</strong>，也可以看出调用字体的变化：</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Font <span class="string">&quot;Kaiti SC&quot;</span> does not contain requested Script</span><br><span class="line">(fontspec)	<span class="string">&quot;CJK&quot;</span>.</span><br><span class="line"></span><br><span class="line">Font <span class="string">&quot;Songti SC Light&quot;</span> does not contain requested</span><br><span class="line">(fontspec)	Script <span class="string">&quot;CJK&quot;</span>.</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h3 id="问题-2"><a href="#问题-2" class="headerlink" title="问题"></a>问题</h3><ol>
-<li>如何更改为模板中使用的标题字体</li>
-<li>是否仿照<a target="_blank" rel="noopener" href="https://github.com/ElegantLaTeX/ElegantPaper">模板</a><strong>1.4 中文字体选项</strong>的示例自定义</li>
-</ol>
-<h2 id="深入解决"><a href="#深入解决" class="headerlink" title="深入解决"></a>深入解决</h2><h3 id="对上述问题的解释"><a href="#对上述问题的解释" class="headerlink" title="对上述问题的解释"></a>对上述问题的解释</h3><blockquote>
-<p>如何更改为模板中使用的标题字体</p>
-<p>是否仿照<a target="_blank" rel="noopener" href="https://github.com/ElegantLaTeX/ElegantPaper">模板</a><strong>1.4 中文字体选项</strong>的示例自定义</p>
-</blockquote>
-<p><code>elegantpaper-cn.pdf</code>中，用到的字体是<strong>中易字库</strong>，是CTeX宏集在<strong>Win</strong>下默认调用的字库，<strong>Mac</strong>中没有。建议有三个：</p>
-<ol>
-<li>去网上下载、安装<strong>中易字库</strong></li>
-<li>不需要仿照模板手册的字体，就用默认的就好</li>
-<li>要追求字体效果，可以试试模板手册里写的<strong>方正字体</strong></li>
-</ol>
-<h3 id="具体解决方案"><a href="#具体解决方案" class="headerlink" title="具体解决方案"></a>具体解决方案</h3><ol>
-<li>如果选择<strong>中易字库</strong>，指定<code>fontset = windows</code>即可；</li>
-<li>如果选择<strong>方正字体</strong>，指定<code>chinesefont = founder</code>即可。</li>
-</ol>
-<h2 id="最终解决方案"><a href="#最终解决方案" class="headerlink" title="最终解决方案"></a>最终解决方案</h2><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ol>
-<li>在<a href="www.foundertype.com">方正字体官网</a>下载<strong>方正宋体</strong>、<strong>方正中宋</strong>、<strong>方正仿宋</strong>和<strong>方正楷体</strong>四款字体，并安装。</li>
-<li>在论文模板<code>tex</code>文件中指定<code>chinesefont=founder</code>选项。</li>
-</ol>
-<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>将输出PDF中的字体更换为<strong>方正字体</strong>系列，实现了预想中的效果。</p>
-<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1giu29jv2ptj30sd0i3my7.jpg" alt="最终效果"></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/17/ElegantPaper-issues46/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
