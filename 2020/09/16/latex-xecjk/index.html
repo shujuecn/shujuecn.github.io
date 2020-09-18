@@ -24,16 +24,18 @@
 
   <meta name="description" content="一般情况下，如果选择使用LaTeX的article文档类，不能直接输出中文，需配合CTEX、CJK、xeCJK等宏包支持中文，本文介绍article文档类配合xeCJK宏包设置中文字体的方法。 注：本人能力有限，暂记此法，来日学成，当更新此文。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用XeCjk宏包配置LaTeX中文字体">
+<meta property="og:title" content="使用xeCjk宏包配置LaTeX中文字体">
 <meta property="og:url" content="http://yinlin.top/2020/09/16/latex-xecjk/index.html">
 <meta property="og:site_name" content="术诀">
 <meta property="og:description" content="一般情况下，如果选择使用LaTeX的article文档类，不能直接输出中文，需配合CTEX、CJK、xeCJK等宏包支持中文，本文介绍article文档类配合xeCJK宏包设置中文字体的方法。 注：本人能力有限，暂记此法，来日学成，当更新此文。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg">
 <meta property="article:published_time" content="2020-09-16T05:45:53.919Z">
-<meta property="article:modified_time" content="2020-09-18T09:44:52.617Z">
+<meta property="article:modified_time" content="2020-09-18T10:45:26.220Z">
 <meta property="article:author" content="shujuecn">
-<meta property="article:tag" content="LaTeX; Python; Shell">
+<meta property="article:tag" content="LaTeX">
+<meta property="article:tag" content="字体">
+<meta property="article:tag" content="xeCJK">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg">
 
@@ -50,7 +52,7 @@
   };
 </script>
 
-  <title>使用XeCjk宏包配置LaTeX中文字体 | 术诀</title>
+  <title>使用xeCjk宏包配置LaTeX中文字体 | 术诀</title>
   
 
 
@@ -212,7 +214,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          使用XeCjk宏包配置LaTeX中文字体
+          使用xeCjk宏包配置LaTeX中文字体
         </h1>
 
         <div class="post-meta">
@@ -230,8 +232,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-18 17:44:52" itemprop="dateModified" datetime="2020-09-18T17:44:52+08:00">2020-09-18</time>
+                <time title="修改时间：2020-09-18 18:45:26" itemprop="dateModified" datetime="2020-09-18T18:45:26+08:00">2020-09-18</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/LaTeX/" itemprop="url" rel="index"><span itemprop="name">LaTeX</span></a>
+                </span>
+            </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -279,6 +290,26 @@
 </div>
       </div>
     
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="shujuecn 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="shujuecn 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
         
 
 <div>
@@ -288,7 +319,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://yinlin.top/2020/09/16/latex-xecjk/" title="使用XeCjk宏包配置LaTeX中文字体">http://yinlin.top/2020/09/16/latex-xecjk/</a>
+    <a href="http://yinlin.top/2020/09/16/latex-xecjk/" title="使用xeCjk宏包配置LaTeX中文字体">http://yinlin.top/2020/09/16/latex-xecjk/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -298,6 +329,11 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/LaTeX/" rel="tag"># LaTeX</a>
+              <a href="/tags/%E5%AD%97%E4%BD%93/" rel="tag"># 字体</a>
+              <a href="/tags/xeCJK/" rel="tag"># xeCJK</a>
+          </div>
 
         
 
@@ -389,6 +425,18 @@
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
