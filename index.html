@@ -287,7 +287,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/09/16/latex-xecjk/" class="post-title-link" itemprop="url">使用XeCjk宏包修改LaTeX中文字体</a>
+            <a href="/2020/09/16/latex-xecjk/" class="post-title-link" itemprop="url">使用XeCjk宏包配置LaTeX中文字体</a>
         </h2>
 
         <div class="post-meta">
@@ -305,7 +305,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-18 00:44:09" itemprop="dateModified" datetime="2020-09-18T00:44:09+08:00">2020-09-18</time>
+                <time title="修改时间：2020-09-18 17:38:33" itemprop="dateModified" datetime="2020-09-18T17:38:33+08:00">2020-09-18</time>
               </span>
 
           
@@ -319,11 +319,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>操作平台：Mac OS<br>发行版：MacTex 2020</p>
-<h2 id="XeCjk字体设置"><a href="#XeCjk字体设置" class="headerlink" title="XeCjk字体设置"></a>XeCjk字体设置</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">&#123;article&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;xeCJK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmainfont</span><span class="string">[BoldFont=方正书宋_GBK, ItalicFont=方正楷体_GBK]</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKsansfont</span><span class="string">&#123;方正黑体_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmonofont</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line">方正仿宋</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textit</span><span class="string">&#123;方正楷体&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textbf</span><span class="string">&#123;方正书宋&#125;</span></span> <span class="tag">\<span class="name">quad</span></span> &#123;<span class="tag">\<span class="name">bfseries</span></span> 方正书宋&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textsf</span><span class="string">&#123;方正黑体&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure>
-
-<h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg" alt="预览效果"></p>
-
+          <p>一般情况下，如果选择使用 $\LaTeX$ 的<code>article</code>文档类，不能直接输出中文，需配合<code>CTEX</code>、<code>CJK</code>、<code>xeCJK</code>等宏包支持中文，本文介绍<code>article</code>文档类配合<code>xeCJK</code>宏包设置中文字体的方法。</p>
+<p>注：本人能力有限，暂记此法，来日学成，当更新此文。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/16/latex-xecjk/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -376,7 +381,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-14 09:47:03" itemprop="dateModified" datetime="2020-09-14T09:47:03+08:00">2020-09-14</time>
+                <time title="修改时间：2020-09-18 17:38:28" itemprop="dateModified" datetime="2020-09-18T17:38:28+08:00">2020-09-18</time>
               </span>
 
           
@@ -391,47 +396,14 @@
 
       
           <p>这是 <strong>Mac环境下Git学习记录</strong> 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。</p>
-<h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="改变目录"><a href="#改变目录" class="headerlink" title="改变目录"></a>改变目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>cd ~/desktop</code> 前往桌面所在路径</p>
-<h3 id="回到上个目录"><a href="#回到上个目录" class="headerlink" title="回到上个目录"></a>回到上个目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure>
-
-<h3 id="列出当前目录中的所有文件"><a href="#列出当前目录中的所有文件" class="headerlink" title="列出当前目录中的所有文件"></a>列出当前目录中的所有文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure>
-
-<h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch</span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>touch code.txt</code> 新建 <code>code.txt</code> 文件。</p>
-<h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir</span><br></pre></td></tr></table></figure>
-
-<p>例如：<code>touch code</code> 新建 <code>code</code> 文件夹。</p>
-<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm</span><br></pre></td></tr></table></figure>
-
-<h3 id="删除文件夹"><a href="#删除文件夹" class="headerlink" title="删除文件夹"></a>删除文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r</span><br></pre></td></tr></table></figure>
-
-<p><code>rm -rf / </code> 会删除电脑中的所有文件，切勿在Linux中尝试！</p>
-<h3 id="移动文件"><a href="#移动文件" class="headerlink" title="移动文件"></a>移动文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv file src</span><br></pre></td></tr></table></figure>
-
-<p><code>file</code> 指要移动的文件，<code>src</code> 指文件移动的目标路径。</p>
-<h3 id="初始化终端-清屏"><a href="#初始化终端-清屏" class="headerlink" title="初始化终端/清屏"></a>初始化终端/清屏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure>
-
-<p><code>reset</code> 不仅会清除屏幕显示，也会清除历史缓存记录。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure>
-
-<p><code>clear</code> 仅清除屏幕显示，不清除历史记录。</p>
-<h3 id="查询历史命令记录"><a href="#查询历史命令记录" class="headerlink" title="查询历史命令记录"></a>查询历史命令记录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">history</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="退出终端"><a href="#退出终端" class="headerlink" title="退出终端"></a>退出终端</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>参考资料：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://b23.tv/yb0Jzs">狂神说Java-Git最新教程通俗易懂</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/05c41cf1a7c4">Shell命令高亮显示</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/tsummer2010/article/details/105374173">Linux下的清屏命令clear和reset用法</a></li>
-</ul>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/13/git-study-1/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
