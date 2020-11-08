@@ -4,37 +4,6 @@
   
     
     <entry>
-      <title>LaTeX Beamer Warings:Option `pdfauthor&#39; has already been used</title>
-      <link href="2020/11/08/beamer-pdfauthor-waring/"/>
-      <url>2020/11/08/beamer-pdfauthor-waring/</url>
-      
-        <content type="html"><![CDATA[<p>编译 $\LaTeX$ Beamer 模板后，报错：“Option `pdfauthor’ has already been used”。</p><a id="more"></a><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ul><li>Beamer模板：<a href="https://www.latexstudio.net/index/details/index/mid/913.html">ElegantLaTeX</a></li><li>发行版：MacTeX 2020</li><li>编译方式：XeLaTeX</li></ul><h3 id="MWE"><a href="#MWE" class="headerlink" title="MWE"></a>MWE</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="LATEX"><figure class="iseeu highlight /latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">&#123;beamer&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">title</span><span class="string">&#123;标题&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">author</span><span class="string">&#123;作者&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">data</span><span class="string">&#123;\today&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">section</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;frame&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;frame&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure></div><h3 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Option <span class="string">&#x27;pdfauthor&#x27;</span> has already been used,</span><br><span class="line">(hyperref)setting the option has no effect.</span><br></pre></td></tr></table></figure></div><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>此模板中，<code>\title</code>、<code>subtitle</code>、<code>\author</code>、<code>\data</code>等命令错误地放在了<code>\begin&#123;document&#125;</code>之前，导致无法正常编译，出现上述警告。</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>将定义<strong>标题、作者、日期</strong>的命令放置于<code>\begin&#123;document&#125;</code>之前，修改代码如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="LATEX"><figure class="iseeu highlight /latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">&#123;beamer&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">title</span><span class="string">&#123;标题&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">author</span><span class="string">&#123;作者&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">data</span><span class="string">&#123;\today&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">section</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;frame&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;frame&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> LaTeX </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LaTeX </tag>
-            
-            <tag> Elegant </tag>
-            
-            <tag> Beamer </tag>
-            
-            <tag> 警告 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>ElegantLaTeX-Paper模板字体问题的解决过程</title>
       <link href="2020/09/17/ElegantPaper-issues46/"/>
       <url>2020/09/17/ElegantPaper-issues46/</url>
