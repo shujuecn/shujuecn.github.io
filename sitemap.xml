@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nuan.icu/2022/12/30/thesis-writing-guide/</loc>
+    
+    <lastmod>2022-12-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/about/index.html</loc>
+    
+    <lastmod>2022-12-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nuan.icu/2020/09/17/ElegantPaper-issues46/</loc>
     
     <lastmod>2022-12-30</lastmod>
@@ -10,13 +24,6 @@
   
   <url>
     <loc>https://nuan.icu/tags/index.html</loc>
-    
-    <lastmod>2020-09-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/about/index.html</loc>
     
     <lastmod>2020-09-18</lastmod>
     
@@ -66,10 +73,31 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://nuan.icu/tags/%E8%AE%BA%E6%96%87/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/tags/Office/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://nuan.icu/categories/LaTeX/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/categories/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
