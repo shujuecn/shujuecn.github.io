@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yinlin.top/2020/11/08/beamer-pdfauthor-waring/</loc>
+    <loc>https://nuan.icu/2020/11/08/beamer-pdfauthor-waring/</loc>
     
     <lastmod>2020-11-08</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/index.html</loc>
+    <loc>https://nuan.icu/tags/index.html</loc>
     
     <lastmod>2020-09-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/2020/09/16/latex-xecjk/</loc>
+    <loc>https://nuan.icu/2020/09/16/latex-xecjk/</loc>
     
     <lastmod>2020-09-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/2020/09/13/git-study-1/</loc>
+    <loc>https://nuan.icu/2020/09/13/git-study-1/</loc>
     
     <lastmod>2020-09-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/2020/09/17/ElegantPaper-issues46/</loc>
+    <loc>https://nuan.icu/2020/09/17/ElegantPaper-issues46/</loc>
     
     <lastmod>2020-09-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/about/index.html</loc>
+    <loc>https://nuan.icu/about/index.html</loc>
     
     <lastmod>2020-09-18</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/lib/pace/README.html</loc>
+    <loc>https://nuan.icu/lib/pace/README.html</loc>
     
     <lastmod>2020-09-10</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yinlin.top/categories/index.html</loc>
+    <loc>https://nuan.icu/categories/index.html</loc>
     
     <lastmod>2020-09-10</lastmod>
     
@@ -59,79 +59,79 @@
   
 
   <url>
-    <loc>http://yinlin.top/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://yinlin.top/tags/LaTeX/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/LaTeX/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/ElegantPaper/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/ElegantPaper/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/%E5%AD%97%E4%BD%93/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/%E5%AD%97%E4%BD%93/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/Elegant/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/xeCJK/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/Beamer/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/Linux/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/%E8%AD%A6%E5%91%8A/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/Git/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/Linux/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/Mac/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/Git/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/Elegant/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/Mac/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/Beamer/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/tags/xeCJK/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/tags/%E8%AD%A6%E5%91%8A/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -139,15 +139,15 @@
 
   
   <url>
-    <loc>http://yinlin.top/categories/LaTeX/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/categories/LaTeX/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yinlin.top/categories/Linux/</loc>
-    <lastmod>2020-11-08</lastmod>
+    <loc>https://nuan.icu/categories/Linux/</loc>
+    <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
