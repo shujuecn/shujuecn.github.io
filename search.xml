@@ -60,35 +60,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>Mac环境下Git学习记录（一）</title>
-      <link href="2020/09/13/git-study-1/"/>
-      <url>2020/09/13/git-study-1/</url>
-      
-        <content type="html"><![CDATA[<p>这是 <strong>Mac环境下Git学习记录</strong> 系列的第一篇博文，本文用列举了Mac终端里常用的几条命令，为了便于查阅和掌握，特此记录。</p><a id="more"></a><h2 id="基本Linux命令"><a href="#基本Linux命令" class="headerlink" title="基本Linux命令"></a>基本Linux命令</h2><h3 id="查看当前目录"><a href="#查看当前目录" class="headerlink" title="查看当前目录"></a>查看当前目录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure></div><h3 id="改变目录"><a href="#改变目录" class="headerlink" title="改变目录"></a>改变目录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span></span><br></pre></td></tr></table></figure></div><p>例如：<code>cd ~/desktop</code> 前往桌面所在路径</p><h3 id="回到上个目录"><a href="#回到上个目录" class="headerlink" title="回到上个目录"></a>回到上个目录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure></div><h3 id="列出当前目录中的所有文件"><a href="#列出当前目录中的所有文件" class="headerlink" title="列出当前目录中的所有文件"></a>列出当前目录中的所有文件</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure></div><h3 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch</span><br></pre></td></tr></table></figure></div><p>例如：<code>touch code.txt</code> 新建 <code>code.txt</code> 文件。</p><h3 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir</span><br></pre></td></tr></table></figure></div><p>例如：<code>touch code</code> 新建 <code>code</code> 文件夹。</p><h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm</span><br></pre></td></tr></table></figure></div><h3 id="删除文件夹"><a href="#删除文件夹" class="headerlink" title="删除文件夹"></a>删除文件夹</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r</span><br></pre></td></tr></table></figure></div><p><code>rm -rf / </code> 会删除电脑中的所有文件，切勿在Linux中尝试！</p><h3 id="移动文件"><a href="#移动文件" class="headerlink" title="移动文件"></a>移动文件</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv file src</span><br></pre></td></tr></table></figure></div><p><code>file</code> 指要移动的文件，<code>src</code> 指文件移动的目标路径。</p><h3 id="初始化终端-清屏"><a href="#初始化终端-清屏" class="headerlink" title="初始化终端/清屏"></a>初始化终端/清屏</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reset</span><br></pre></td></tr></table></figure></div><p><code>reset</code> 不仅会清除屏幕显示，也会清除历史缓存记录。</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">clear</span><br></pre></td></tr></table></figure></div><p><code>clear</code> 仅清除屏幕显示，不清除历史记录。</p><h3 id="查询历史命令记录"><a href="#查询历史命令记录" class="headerlink" title="查询历史命令记录"></a>查询历史命令记录</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">history</span></span><br></pre></td></tr></table></figure></div><h3 id="退出终端"><a href="#退出终端" class="headerlink" title="退出终端"></a>退出终端</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure></div><hr><p>参考资料：</p><ul><li><a href="https://b23.tv/yb0Jzs">狂神说Java-Git最新教程通俗易懂</a></li><li><a href="https://www.jianshu.com/p/05c41cf1a7c4">Shell命令高亮显示</a></li><li><a href="https://blog.csdn.net/tsummer2010/article/details/105374173">Linux下的清屏命令clear和reset用法</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Linux </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-            <tag> Git </tag>
-            
-            <tag> Mac </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
   
   
 </search>
