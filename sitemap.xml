@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nuan.icu/2020/11/08/beamer-pdfauthor-waring/</loc>
-    
-    <lastmod>2020-11-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://nuan.icu/tags/index.html</loc>
     
     <lastmod>2020-09-18</lastmod>
@@ -67,6 +60,27 @@
 
   
   <url>
+    <loc>https://nuan.icu/tags/Linux/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/tags/Git/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/tags/Mac/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://nuan.icu/tags/LaTeX/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
@@ -94,59 +108,17 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://nuan.icu/tags/Linux/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/Git/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/Mac/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/Elegant/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/Beamer/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/%E8%AD%A6%E5%91%8A/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://nuan.icu/categories/LaTeX/</loc>
+    <loc>https://nuan.icu/categories/Linux/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://nuan.icu/categories/Linux/</loc>
+    <loc>https://nuan.icu/categories/LaTeX/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
