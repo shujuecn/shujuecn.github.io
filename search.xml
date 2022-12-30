@@ -31,35 +31,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>使用xeCjk宏包配置LaTeX中文字体</title>
-      <link href="2020/09/16/latex-xecjk/"/>
-      <url>2020/09/16/latex-xecjk/</url>
-      
-        <content type="html"><![CDATA[<p>一般情况下，如果选择使用<code>LaTeX</code>的<code>article</code>文档类，不能直接输出中文，需配合<code>CTEX</code>、<code>CJK</code>、<code>xeCJK</code>等宏包支持中文，本文介绍<code>article</code>文档类配合<code>xeCJK</code>宏包设置中文字体的方法。</p><p>注：本人能力有限，暂记此法，来日学成，当更新此文。</p><a id="more"></a><h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><ul><li>操作平台：Mac OS</li><li>发行版：MacTex 2020</li><li>编译方式：XeLaTeX</li></ul><h2 id="XeCjk字体设置"><a href="#XeCjk字体设置" class="headerlink" title="XeCjk字体设置"></a>XeCjk字体设置</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="LATEX"><figure class="iseeu highlight /latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">&#123;article&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">usepackage</span><span class="string">&#123;xeCJK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmainfont</span><span class="string">[BoldFont=方正书宋_GBK, ItalicFont=方正楷体_GBK]</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKsansfont</span><span class="string">&#123;方正黑体_GBK&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">setCJKmonofont</span><span class="string">&#123;方正仿宋_GBK&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line"></span><br><span class="line">方正仿宋</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textit</span><span class="string">&#123;方正楷体&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textbf</span><span class="string">&#123;方正书宋&#125;</span></span> <span class="tag">\<span class="name">quad</span></span> &#123;<span class="tag">\<span class="name">bfseries</span></span> 方正书宋&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">textsf</span><span class="string">&#123;方正黑体&#125;</span></span></span><br><span class="line"></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure></div><h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gisg2bv8mrj30ky0dh0tm.jpg" alt="预览效果"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> LaTeX </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> LaTeX </tag>
-            
-            <tag> 字体 </tag>
-            
-            <tag> xeCJK </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
   
   
 </search>

@@ -2,21 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nuan.icu/tags/index.html</loc>
-    
-    <lastmod>2020-09-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/2020/09/16/latex-xecjk/</loc>
-    
-    <lastmod>2020-09-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://nuan.icu/2020/09/17/ElegantPaper-issues46/</loc>
+    
+    <lastmod>2022-12-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nuan.icu/tags/index.html</loc>
     
     <lastmod>2020-09-18</lastmod>
     
@@ -68,13 +61,6 @@
   
   <url>
     <loc>https://nuan.icu/tags/%E5%AD%97%E4%BD%93/</loc>
-    <lastmod>2022-12-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nuan.icu/tags/xeCJK/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
